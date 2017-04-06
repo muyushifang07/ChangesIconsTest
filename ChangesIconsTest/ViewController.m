@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)changeAppIconAction:(id)sender {
+    
+    NSLog(@"改变app icon");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
