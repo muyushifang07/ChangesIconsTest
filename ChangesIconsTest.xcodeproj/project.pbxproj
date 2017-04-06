@@ -13,6 +13,8 @@
 		9C21FFA51E960E6E0025AA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C21FFA31E960E6E0025AA93 /* Main.storyboard */; };
 		9C21FFA71E960E6E0025AA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C21FFA61E960E6E0025AA93 /* Assets.xcassets */; };
 		9C21FFAA1E960E6E0025AA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C21FFA81E960E6E0025AA93 /* LaunchScreen.storyboard */; };
+		9C21FFC21E963A400025AA93 /* Icon_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C21FFC01E963A400025AA93 /* Icon_new@2x.png */; };
+		9C21FFC31E963A400025AA93 /* Icon_new@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C21FFC11E963A400025AA93 /* Icon_new@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9C21FFA61E960E6E0025AA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C21FFA91E960E6E0025AA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C21FFAB1E960E6E0025AA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C21FFC01E963A400025AA93 /* Icon_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_new@2x.png"; sourceTree = "<group>"; };
+		9C21FFC11E963A400025AA93 /* Icon_new@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_new@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		9C21FF991E960E6E0025AA93 /* ChangesIconsTest */ = {
 			isa = PBXGroup;
 			children = (
+				9C21FFBB1E9632450025AA93 /* NewIcons */,
 				9C21FF9D1E960E6E0025AA93 /* AppDelegate.h */,
 				9C21FF9E1E960E6E0025AA93 /* AppDelegate.m */,
 				9C21FFA01E960E6E0025AA93 /* ViewController.h */,
@@ -77,6 +82,15 @@
 				9C21FF9B1E960E6E0025AA93 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C21FFBB1E9632450025AA93 /* NewIcons */ = {
+			isa = PBXGroup;
+			children = (
+				9C21FFC01E963A400025AA93 /* Icon_new@2x.png */,
+				9C21FFC11E963A400025AA93 /* Icon_new@3x.png */,
+			);
+			path = NewIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C21FFC21E963A400025AA93 /* Icon_new@2x.png in Resources */,
 				9C21FFAA1E960E6E0025AA93 /* LaunchScreen.storyboard in Resources */,
 				9C21FFA71E960E6E0025AA93 /* Assets.xcassets in Resources */,
+				9C21FFC31E963A400025AA93 /* Icon_new@3x.png in Resources */,
 				9C21FFA51E960E6E0025AA93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +325,7 @@
 				9C21FFB01E960E6E0025AA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
